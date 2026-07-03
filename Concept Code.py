@@ -49,4 +49,5 @@ class Dialogue:
         self.dialogue = dialogue
     def dialogue_show(self):
         for i in self.dialogue:
-            print(i)
+            for j in i:
+                print(j)
